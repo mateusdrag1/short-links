@@ -1,0 +1,19 @@
+POST http://localhost:8080/api/links
+Content-Type: application/json
+
+{
+    "code": "hemato",
+    "url": "https://hemato.matthieu.com.br"
+}
+
+###
+
+GET http://localhost:8080/api/links
+
+###
+
+GET http://localhost:8080/hemato
+
+###
+
+GET http://localhost:8080/api/metrics
